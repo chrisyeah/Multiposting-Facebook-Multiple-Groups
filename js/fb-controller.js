@@ -23,8 +23,7 @@
 		Connects asynchronous with facebook
 	*/
 	window.fbAsyncInit = function() {
-		FB.init({ 	appId: '204548616410109', 	// appYeah Multiposting
-					// appId: '189856911046789', // PartyLexy Events
+		FB.init({ 	appId: 'YOUR_FB_APP_ID', 	// put your facebook app id here
 					status: true,
 					cookie: true,
 					xfbml: true,
@@ -95,7 +94,6 @@
 		addFiveInputFields();
 		loadOwnGroups(user.groups);
 		showAfterLogin();
-		showAd();
 	}
 	
 	
