@@ -1,0 +1,51 @@
+﻿body { background:#f7f7f7 url('../images/bg.png') }
+
+a, a:hover, a:active, a:focus { color: #CF4F3D; }
+
+.fiveFields { margin-bottom:20px; }		
+.input-group { margin-bottom:10px; }
+
+.jumbotron { background-color:#fff; }
+.navbar-default { background-color:#333; }
+.navbar-default .navbar-brand { color: #ffffff; }
+.navbar-default .navbar-nav > .active > a {
+	color: #333; background-color: #CF4F3D;
+	border:1px solid #CF4F3D; border-width:0 1px;
+}
+.navbar-default .navbar-nav>.active>a:hover { color:#333; background-color:#fff; border-color:#f5f5f5; }
+.navbar-default .navbar-nav > li > a { color: #ffffff; }
+.navbar-default .navbar-nav > li > a:hover { color:#777; }
+
+.btn-fb {
+	color: #ffffff;
+	background-color: #CF4F3D;
+	border-color: rgb(204, 204, 204);
+}
+.btn-fb:hover {
+	color: #333;
+	background-color: #ffffff;
+	border-color: rgb(204, 204, 204);
+}
+.btn-warning { background-color:#de5e00; }
+.btn-primary {
+	background-color:#0c824a;
+	border-color:#08522E;
+}
+.btn-primary:hover {
+	background-color:#08522E;
+}
+
+
+/* Dropdown menu: facebook-blue background-color */
+.dropdown-menu > li > a:hover { background-color:#CF4F3D; }
+
+.dropdown-menu { text-align:left; }
+
+.panel-info { border-color:#e5e5e5; }
+.panel-info > .panel-heading { border-color:#e5e5e5; background-color:#D8DFEA; color:#333; }
+
+.panel-heading { padding:10px; }
+
+#footer { background-color:#333; }
+.credit a { color:#fff; }
+.credit { text-align:center; }
